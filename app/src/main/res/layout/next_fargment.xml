@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/bg_main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mohamedmabrouk.filedata.NextActivity">
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="200dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/btn_login_bg"
+        android:textColor="@color/bg_main"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:text="Add New Book" />
+
+    <Button
+        android:id="@+id/show_my_books"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:textColor="@color/bg_main"
+        android:background="@color/btn_login_bg"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:text="show My Books" />
+
+    <Button
+        android:id="@+id/show_all_books"
+        android:layout_width="200dp"
+        android:textColor="@color/bg_main"
+        android:background="@color/btn_login_bg"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Show All Books" />
+
+</LinearLayout>
